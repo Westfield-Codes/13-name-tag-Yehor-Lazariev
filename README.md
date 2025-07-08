@@ -1,6 +1,6 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=16765189)
 
-### Instructions ###
+# Instructions #
 Make a page that looks as much as possible like the nametag.jpg image without using the image in your final version. Draw guidance from W3 schools (but not your previous work). While developing and styling, it's helpful to include the image below your code for reference. 
 
 ## punchlist ##
@@ -12,7 +12,7 @@ Make a page that looks as much as possible like the nametag.jpg image without us
 1. Add an h1 tag (for "Hello")
 1. Add a p tag for "My name is"
 
-#  Interactive (Optional) #
+###  Interactive (Optional) ###
 1. Add an input box where a name could be written.
 1. Move the bottom border under the input box
 1. Include a "save" button centered below the name tag.
