@@ -2,11 +2,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nametag Creator</title>
+    <title>Yehor</title>
+    <style>
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .nametag {
+            width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 25px;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.25);
+            overflow: hidden;
+            border: 5px solid magenta;
+        }
+        .top {
+            background: magenta;
+            color: white;
+            padding: 30px 0;
+        }
+        .top h1 {
+            margin: 0;
+            font-size: 70px;
+            letter-spacing: 3px;
+        }
+        .middle {
+            padding: 25px;
+            font-size: 30px;
+            color: #333;
+        }
+        .middle p {
+            margin: 0 0 10px;
+            font-size: 32px;
+        }
+        .name-input {
+            font-size: 40px;
+            width: 70%;
+            border: none;
+            border-bottom: 4px solid magenta;
+            text-align: center;
+            outline: none;
+            padding: 10px;
+        }
+</style>
   </head>
   <body>
      <h1>Instructions</h1>
   <p>Make a page that looks as much as possible like the nametag.jpg image below without using that image. See README.md for tasks. </p>
+      <div class="nametag">
+        <div class="top">
+            <h1>Hello</h1>
+        </div>
+        <div class="middle">
+            <p>My name is</p>
+            <input class="name-input" type="text" placeholder="Enter your name">
+        </div>
+    </div>
   <img src="nametag.jpg" width="800px">
   <script src="script.js"></script>
   </body>
